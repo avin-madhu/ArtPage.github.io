@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mainTitle{
+    font-size: 500%;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("../arthomePagejpg.jpg");
+    background-size: cover;
+
+}
+
+.navBar{
+    height: 50px;
+    background-color: rgb(0, 0, 0); 
+    width: 50%;
+    position: absolute;
+    right: 0%;
+}
+
+a{
+   text-decoration: none;
+   color: aliceblue;
+}
+
+.navbarEl{
+    display: flex;
+    list-style: none;
+    padding-bottom: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+li{
+    padding: 30px; 
+    color: aliceblue;
+    font-family: 'Righteous', cursive;  
+}
+
