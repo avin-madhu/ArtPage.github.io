@@ -37,6 +37,10 @@ body{
     width: 50%;
     position: absolute;
     right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 25px;
 }
 
 a{
@@ -50,10 +54,67 @@ a{
     padding-bottom: 10px;
     position: absolute;
     right: 0px;
+   
 }
 
 li{
     padding: 30px; 
     color: aliceblue;
     font-family: 'Righteous', cursive;  
+    
+}
+
+@media (max-width: 470px)
+{
+
+
+    #mainTitleid{
+        font-size: 300%;
+    }
+
+    #homePageTextid{
+        height: 63%;
+        width: 85%;
+        padding-top: 150px;
+    }
+    #avinMadhuTextid
+    {
+        padding-left: 180px;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    #navBarElid
+    {
+    
+        
+       
+    }
+
+    #navBarid
+    {
+        height: 50px;
+        background-color: rgb(0, 0, 0); 
+        width: 100%;
+        position: absolute;
+        right: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        padding-top: 15px;
+    }
+
+    #listEl
+    {
+        padding: 15px;
+    }
+
+    body{
+        background-color: rgb(10, 10, 10);
+        background-image: url("arthomePagejpg-01.jpeg");
+        background-repeat: none;
+        background-size: cover;
+        
+    }
 }
