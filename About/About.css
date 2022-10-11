@@ -17,7 +17,7 @@ body{
 
 }
 
-.navBar{
+#navBarid{
     height: 50px;
     background-color: rgb(0, 0, 0); 
     width: 50%;
@@ -30,7 +30,7 @@ a{
    color: aliceblue;
 }
 
-.navbarEl{
+#navBarElId{
     display: flex;
     list-style: none;
     padding-bottom: 10px;
@@ -38,12 +38,167 @@ a{
     right: 0px;
 }
 
-li{
+#listEl{
     padding: 30px; 
     color: aliceblue;
     font-family: 'Righteous', cursive;  
 }
 
+.bigContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+h3{
+    color: aliceblue;
+    font-family: 'Righteous', cursive;  
+}
+
+p{
+    color: aliceblue;
+    font-family: 'Righteous', cursive;  
+}
+
+
+
+.container{
+    
+    width: 690px;
+    background-color: rgb(6, 21, 65);
+    overflow: hidden;
+    border-radius: 1em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    display: flex;
+    padding-right: 60px;
+   
+   
+}
+ 
+.user-image{
+    padding: 3em 0;
+    width: 30%;
+    background-image: linear-gradient(70deg,#013261,#0084ff);
+}
+ 
+.user-image img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    box-shadow:  0 0.6em 1.8em ;
+    object-fit: cover;
+}
+ 
+.content{
+    color: #565656;
+    padding: 2.2em;
+}
+ 
+.name{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+ 
+.username{
+    font-size: 1em;
+    color: #9e9e9e;
+}
+ 
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+
+#navbarlink{
+
+   font-size: 20px; 
+    color: aliceblue;
+    font-family: 'Righteous', cursive;  
+    font-size: 16px;
+}
+ 
+a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s;
+    font-size: 2em;
+    margin-right: 1.2em;
+}
+ 
+a:last-child{
+    margin: 0;
+}
+ 
+.insta:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(2,2);
+}
+ 
+.git:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(2,2);
+}
+ 
+.linkedin:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(2,2);
+}
+ 
+.facebook:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(2,2);
+}
+ 
+.details{
+    margin-bottom: 1.8em;
+}
+ 
+ 
+/* CSS for messagin link */
+ 
+.effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: rgb(48, 41, 41);
+    text-transform: capitalize;
+    width: 100%;
+    background-image: linear-gradient(60deg,#0083FD,#61A1DD);
+    font-size: 1.2em;
+    padding: 1em 3em;
+    border-radius: 5em;
+    overflow: hidden;
+}
+   
+.effect.effect-4:before {
+    content: "\f2b6";
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    transform: scale(0, 1);
+}
+.effect.effect-4:hover {
+    text-indent: -9999px;
+}
+     
+.effect.effect-4:hover:before {
+transform: scale(1, 1);
+text-indent: 0;
+}
 
 @media (max-width: 470px)
 {
@@ -55,6 +210,7 @@ li{
         width: 100%;
         position: absolute;
         right: 0%;
+        top: 0px;
         display: flex;
         align-items: center;
         justify-content: center; 
@@ -72,5 +228,140 @@ li{
         background-repeat: none;
         background-size: cover;
         
+    }
+    
+    p{
+        color: aliceblue;
+        font-family: 'Righteous', cursive;  
+    }
+
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+    }
+
+    #bigContainerId{
+
+        align-items: center;
+        justify-content: center;
+        padding-top: 200px;
+        
+    }
+     
+    #containerId{
+        width: 233px;
+        background-color: rgb(13, 20, 53);
+        overflow: hidden;
+        border-radius: 1em;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1em;
+        display: grid;
+    }
+     
+    .user-image{
+        padding: 3em 0;
+        background-image: linear-gradient(70deg,#61A1DD,#0083FD);
+        width: 100%;
+    }
+     
+    .user-image img{
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+        box-shadow:  0 0.6em 1.8em ;
+        object-fit: cover;
+    }
+     
+    #contentBoxId{
+        color: #000000;
+        padding: 30px;
+        
+    }
+     
+    .name{
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+     
+    .username{
+        font-size: 1em;
+        color: #9e9e9e;
+    }
+     
+    .links{
+        display: flex;
+        justify-content: center;
+        margin: 1.5em 0;
+    }
+     
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        transition: all 0.3s;
+        font-size: 2em;
+        margin-right: 1.2em;
+    }
+     
+    a:last-child{
+        margin: 0;
+    }
+     
+    .insta:hover{
+        color:rgb(255, 255, 255);
+        transform: scale(2,2);
+    }
+     
+    .git:hover{
+        color:rgb(255, 255, 255);
+        transform: scale(2,2);
+    }
+     
+    .linkedin:hover{
+        color:rgb(255, 255, 255);
+        transform: scale(2,2);
+    }
+     
+    .facebook:hover{
+        color:rgb(255, 255, 255);
+        transform: scale(2,2);
+    }
+     
+    .details{
+        margin-bottom: 1.8em;
+    }
+     
+     
+    /* CSS for messagin link */
+
+    #messageButtonBox{
+       align-items: center;
+       justify-content: center;
+       display: flex;
+    }
+     
+    #messageButtonId {
+        
+        display: inline-block;
+        
+    }
+       
+    #messageButtonId::before{
+        content: "\f2b6";
+        font-family: FontAwesome;
+       
+        
+      
+    }
+    #messageButtonId:hover {
+        text-indent: -9999px;
+    }
+         
+    #messageButtonId:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
     }
 }

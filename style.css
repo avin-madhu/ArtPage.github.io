@@ -59,6 +59,7 @@ a{
 
 li{
     padding: 30px; 
+    font-size: 16px;
     color: aliceblue;
     font-family: 'Righteous', cursive;  
     
@@ -102,7 +103,7 @@ li{
         display: flex;
         align-items: center;
         justify-content: center; 
-        padding-top: 15px;
+        padding-top: 25px;
     }
 
     #listEl
