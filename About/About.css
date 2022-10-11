@@ -248,6 +248,7 @@ text-indent: 0;
         align-items: center;
         justify-content: center;
         padding-top: 200px;
+        padding-top: 20px;
         
     }
      
@@ -260,6 +261,7 @@ text-indent: 0;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 1em;
         display: grid;
+        
     }
      
     .user-image{
