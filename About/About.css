@@ -17,10 +17,10 @@ body{
 
 }
 
-#navBarid{
+.navBar{
     height: 50px;
     background-color: rgb(0, 0, 0); 
-    width: 50%;
+    width: 40px;
     position: absolute;
     right: 0%;
 }
@@ -207,7 +207,7 @@ text-indent: 0;
     {
         height: 50px;
         background-color: rgb(0, 0, 0); 
-        width: 100%;
+        width: 50%;
         position: absolute;
         right: 0%;
         top: 0px;
