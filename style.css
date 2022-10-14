@@ -32,7 +32,7 @@ body{
     padding-top: 30px;
 }
 .navBar{
-    height: 50px;
+    height: 60px;
     background-color: rgb(0, 0, 0); 
     width: 50%;
     position: absolute;
@@ -40,7 +40,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center; 
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 a{
